@@ -596,7 +596,21 @@ background-color: var(--accent-color);
     height: 20px;
 }
 
-/* portfolio page */
+/**
+  |============================
+  | modal window
+  |============================
+*/
+.backdrop {
+position: fixed;
+}
+
+
+/**
+  |============================
+  | Portfolio page
+  |============================
+*/
 
 
 .portfolio-conteiner{
