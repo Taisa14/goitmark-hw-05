@@ -137,7 +137,20 @@ margin-right: 93px;
 .nav-item:focus {
     color: #2196F3;
 }
+.nav-item.nav-item-current::after {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+
+    display: block;
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #2196F3;
+}
 .nav-item.nav-item-current {
+    position: relative;
 color: #2196F3;
 }
 .nav-item-portf:hover {
