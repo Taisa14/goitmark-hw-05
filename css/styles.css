@@ -727,6 +727,11 @@ display: flex;
     background-color: #F5F4FA;
     border-radius: 4px;
     border: none;
+
+     transition-property: color, background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0s;
 }
 .work-btn-item.current {
     background-color: #2196F3;
@@ -779,6 +784,10 @@ display: flex;
     
 background-color: #2196F3;
 color: #ffffff;
+ transition-property: color, background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0s;
     }
 
 .header-portfolio:hover {
@@ -811,6 +820,11 @@ line-height:calc(26/16);
 letter-spacing: 0.03em;
 color:var(--title-text-color) ;
 cursor: pointer;
+
+ transition-property: color, background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0s;
 }
 
 
@@ -850,7 +864,10 @@ cursor: pointer;
 }
 .portfolio-item {
  flex-basis: 370px;
-
+ transition-property: color, background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0s;
 }
 .projects-link:hover,
 .projects-link:focus {
