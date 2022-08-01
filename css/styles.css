@@ -46,7 +46,11 @@ img {
     margin: 0;
  }
  
- 
+ /**
+   |============================
+   | conteiner
+   |============================
+ */
 
 .conteiner {
     width: 1200px;
@@ -57,13 +61,22 @@ img {
 
     
 }
+/**
+  |============================
+  | Section
+  |============================
+*/
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
 }
 
 
-
+/**
+  |============================
+  | header
+  |============================
+*/
 
   .header-conteiner {
     display: flex;
@@ -104,6 +117,10 @@ margin-right: 93px;
     display: flex;
     align-items: center;
     gap: 10px;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0s;
 }
 
 .header-phone {
@@ -111,6 +128,10 @@ margin-right: 93px;
     display: flex;
     align-items: center;
     gap: 10px;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0s;
 }
 .header-phone:hover,
 .header-phone:focus {
@@ -131,6 +152,10 @@ margin-right: 93px;
 .nav-item {
     display: block;
     padding: 32px 0;
+    transition-property: color, background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0s;
     
 }
 .nav-item:hover,
@@ -187,7 +212,11 @@ color: #2196F3;
 }
 
 
-/* logo Website */
+/**
+  |============================
+  | logo website
+  |============================
+*/
 
  .logo {
     font-family: Raleway, sans-serif;
@@ -411,6 +440,11 @@ padding: 30px 10px;
     align-items: center;
     justify-content: center;
     gap: 10px;
+
+     transition-property: color, background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0s;
 }
 .socials-link {
     display: flex;
@@ -421,6 +455,8 @@ padding: 30px 10px;
     color: #AFB1B8;
     background-color: #FFFFFF;
     border-radius: 50%;
+    cursor: pointer;
+   
 
 }
 .socials-link:hover,
@@ -478,10 +514,8 @@ margin-bottom: 50px;
    
     
 }
-.clients-item:hover {
- border-color: #2196F3;
- color: #2196F3;
-}
+
+
 .clients-item {
     width: 170px;
     height: 92px;
@@ -492,12 +526,22 @@ border: 1px solid #AFB1B8;
 border-radius: 4px;
 color: #AFB1B8;
 
+transition-property: color, background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0s;
+
 }
+.clients-item:hover {
+ border-color: #2196F3;
+ color: #2196F3;}
+
 .clients-icon.current {
     caret-color:var(--accent-color)
 }
 .clients-icon {
  fill: currentColor;
+ 
 }
 
 .footer {
@@ -534,6 +578,10 @@ color: #AFB1B8;
 
 .footer-address{
     color: #FFFFFF;
+    transition-property: color, background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0s;
 }
 .address-link:hover,
 .address-link:focus {
@@ -585,6 +633,10 @@ margin-bottom: 0;
     border-radius: 50%;
     background-color: rgba(255,255,255,0.1);
     fill: var(--primery-white-color);
+    transition-property: color, background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0s;
 
 }
 .footer-link:hover,
